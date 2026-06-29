@@ -1,12 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "URL Shortener Server",
   "main": "index.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +19,5 @@
     "express": "^5.1.0",
     "mongoose": "^8.19.2",
     "nanoid": "^5.1.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
   }
 }
